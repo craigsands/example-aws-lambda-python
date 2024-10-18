@@ -3,7 +3,7 @@ name = "example"
 dynamic = ["readme", "version"]
 description = ""
 authors = [
-  { name="Craig Sands", email="craig.sands@one.app" }
+  { name="Craig Sands", email="craig.sands@gmail.com" }
 ]
 requires-python = ">=3.12"
 dependencies = [
