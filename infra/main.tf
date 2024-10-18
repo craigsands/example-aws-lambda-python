@@ -72,7 +72,7 @@ resource "aws_lambda_function" "test_lambda" {
   s3_bucket     = aws_s3_bucket.example.bucket
   s3_key        = local.lambda_s3_key
   role          = aws_iam_role.iam_for_lambda.arn
-  handler       = "example.lambda_function.lambda_handler"
+  handler       = var.lambda_handler
 
   architectures = [var.lambda_architecture]
   runtime       = var.lambda_runtime
